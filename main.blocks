@@ -1,0 +1,14 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Q0a%fVPfF,WDXWz7M]Eq">index</variable><variable id="2v}JlKd+y15,;/QYm35O">y</variable><variable id="Lku]D3_?cm6YwX1o:b5+">x</variable></variables><comment id="U(3T0|?dOqfp-%Kjn9z%" x="504" y="20" h="578" w="487">x=0 y=0 plot 0,0
+x=0 y=1 plot 0,1
+x=0 y=2 plot 0,2
+x=0 y=3 plot 0,3
+x=0 y=4 plot 0,4
+
+x=1 y=0 plot 1,0
+x=1 y=0 plot 1,1
+x=1 y=1 plot 1,1
+x=1 y=2 plot 1,2
+x=1 y=3 plot 1,3
+x=1 y=4 plot 1,4
+
+and the same thing 2 times</comment><block type="pxt-on-start" id="o]=!WL3=kJA4D!7_Yn*{" x="20" y="20"/><block type="device_forever" id="H:5MDHuS4t4r;T@v,T!F" x="225" y="20"/><block type="device_button_event" id="lrnc{[e`ghBYY$[r[19S" x="82" y="345"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="pxt_controls_for" id="EI,F^_]ky*UaiG$$/`qD"><value name="VAR"><shadow type="variables_get_reporter"><field name="VAR" id="Q0a%fVPfF,WDXWz7M]Eq">index</field></shadow><block type="variables_get" id="(o^r`q~Gg$}e[w+(dh5R"><field name="VAR" id="Lku]D3_?cm6YwX1o:b5+">x</field></block></value><value name="TO"><shadow type="math_whole_number" id="Fg;+*v23h0_C*B+21WNc"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="pxt_controls_for" id="k(eV4f@4w2DfnS?8y|5U"><value name="VAR"><shadow type="variables_get_reporter"><field name="VAR" id="Q0a%fVPfF,WDXWz7M]Eq">index</field></shadow><block type="variables_get" id="QkGA._~4I,CN(DolRH}l"><field name="VAR" id="2v}JlKd+y15,;/QYm35O">y</field></block></value><value name="TO"><shadow type="math_whole_number" id="i-n5EY7fAzXzc${w,*CY"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_plot" id="T(i%?5yGcq16c|p*7a8}"><value name="x"><shadow type="math_number_minmax"><mutation min="0" max="4" label="X" precision="1"/><field name="SLIDER">0</field></shadow><block type="variables_get" id="mxobWmp`{q@y8T#O0|4_"><field name="VAR" id="Lku]D3_?cm6YwX1o:b5+">x</field></block></value><value name="y"><shadow type="math_number_minmax"><mutation min="0" max="4" label="Y" precision="1"/><field name="SLIDER">0</field></shadow><block type="variables_get" id="P]E5kY{fkO%8MbW32ixB"><field name="VAR" id="2v}JlKd+y15,;/QYm35O">y</field></block></value><next><block type="device_pause" id="+At4_go8mKaQmDHx?=XA"><value name="pause"><shadow type="timePicker" id="WHzACyL]=[$-F9b(uuNf"><field name="ms">200</field></shadow></value></block></next></block></statement></block></statement></block></statement></block></xml>
